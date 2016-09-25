@@ -7,7 +7,7 @@
 
 
 
-//0x27 es por donde el arduino detecta la interfaz
+//0X3F es por donde el arduino detecta la interfaz
 LiquidCrystal_I2C lcd(0X3F,16,2);
 
 void setup()
@@ -27,6 +27,6 @@ void loop()
 	lcd.print("First prove");
 	delay(3000);
 	lcd.clear();
-	lcd.print("Hola Isa");
+	lcd.print("Hola XXXX");
 	delay(2000);
 }
